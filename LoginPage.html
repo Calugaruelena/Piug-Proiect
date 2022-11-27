@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> SpaceLovers</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+    <div class="navbar" id="navbar">
+        <a href="index.html">HOME</a>
+        <a href="AboutPage.html">ABOUT</a>
+        <a class="active" href="LoginPage.html">LOGIN</a>
+        <a href="HelpPage.html">HELP</a>
+        <a href="ContactPage.html">CONTACT</a>
+        <a href="MissionsPage.html" >MISSIONS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          
+    </div>
+
+    <form class="form" id="form" action="#">
+        <h2>Login Here</h2>
+        <input type="text" name="email" required="required" id="email" placeholder="Enter Email Here" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Required format: exe@mail.com">
+        <input type="password" required="required" pattern=".{4,}" title="Four or more characters" name="password" id="password" placeholder="Enter Password Here" onkeydown="validation()">
+        <button type="submit" onClick="auth()" id="loginButton" class="btnn"><a href="#">Login</a></button>
+    
+        <p class="link">Don't have an account<br>
+        <a href="#">Sign up </a>here</p>
+        <p class="liw">Log in with</p>
+    
+          <div class="icons">
+            <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://accounts.google.com/ServiceLogin"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="https://www.skype.com/ro/"><ion-icon name="logo-skype"></ion-icon></a>
+         </div>
+        </form>
+     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+     <script src="js/script.js"></script>
+    </body>
+</html>
