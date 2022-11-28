@@ -13,6 +13,7 @@ html{
 scroll-padding-top: 70px;
 scroll-behavior: smooth;
 }
+
 .navbar {
   background-color: black;
   overflow:visible;
@@ -146,14 +147,15 @@ position:absolute;
 text-align: center;
 
 }
+@media (min-width: 575px) {
 .about {
-
   width: 40%;
   height: auto;
   margin-left: 6%;
   color: #fff;
   position: absolute;
   margin-top: 0;
+}
 }
 @media (min-width: 575px) {
 .contentApollo {
