@@ -351,6 +351,8 @@ font-family: 'Inter', sans-serif;
 font-size: 12px;
 line-height: 1.5;
 display: inline-block;
+color: #ff7200;
+font-weight: bold;
 }
 }
 @media (min-width: 575px) {
@@ -383,13 +385,15 @@ font-size: 15px;
 padding: 8px 12px;
 position: absolute;
 text-align: center;
+font-weight: bold;
 }
 .textApolloVideo {
-color: #f2f2f2;
+  color: #ff7200;
 font-size: 25px;
 padding: 8px 12px;
 position: absolute;
 text-align: left;
+font-weight: bold;
 font-weight: bold;
 }
 @media (min-width: 575px) {
