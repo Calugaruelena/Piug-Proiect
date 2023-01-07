@@ -104,6 +104,8 @@ font-size: 12px;
 padding: 8px 12px;
 position: absolute;
 top: 0;
+display: flex;
+flex-direction: column;
 }
 
 
@@ -153,12 +155,13 @@ text-align: center;
   margin-top: 0;
 }
 }
-@media (min-width: 575px) {
+
 .contentApollo {
 top: 200px;
 color: #fff;
 position: absolute;
-}
+display: flex;
+flex-direction: column;
 }
 @media (min-width: 575px) {
 .helpContent {
@@ -266,12 +269,12 @@ to {opacity: 1;}
 .closebtn:hover {
 color: black;
 }
-@media (min-width: 575px) {
 .marsContent {
 top: 200px;
 color: #fff;
 position: relative;
-}
+display: flex;
+flex-direction: column;
 }
 
 .contentMissions {
@@ -307,18 +310,21 @@ position: relative;
 color: #fff;
 text-align: center;
 }
-@media (min-width: 575px) {
+
 .imageMars {
 text-align: left;
 width:auto;
 margin-left: 10%;
 margin-right: 10%;
-}
+display: flex;
+flex-direction: column;
 }
 .imageMars img {
 margin-top: -60px;
 text-align: left;
 width: 1100px;
+display: flex;
+flex-direction: column;
 
 }
 .marsContent p {
@@ -355,14 +361,15 @@ color: #ff7200;
 font-weight: bold;
 }
 }
-@media (min-width: 575px) {
+
 .aboutApollo {
 width: 40%;
 height: auto;
 margin-left: 6%;
 color: #fff;
 margin-bottom: 3%;
-}
+display: flex;
+flex-direction: column;
 }
 .contentApollo h1 {
 width: 100%;
@@ -476,7 +483,7 @@ width: 300px;
 flex:30%;
 padding: 30px;
 }
-@media (min-width: 575px) {
+
 .backgroundAbout {
 width: 60%;
   height: auto;
@@ -484,8 +491,10 @@ width: 60%;
   color: #fff;
   position: absolute;
   margin-top: 200px;
+  display: flex;
+flex-direction: column;
 }
-}
+
 
 .backgroundAbout h1 {
 margin-top: -90px;
@@ -502,7 +511,6 @@ font-size: 20px;
 line-height: 1.5;
 margin: 15px;
 }
-@media (min-width: 575px) {
 .imgAbout {
 width: 30%;
 height: auto;
@@ -513,7 +521,6 @@ float: right;
 text-align: left;
 display: flex;
 flex-direction: column;
-}
 }
 .imgAbout img {
 height: 500px;
