@@ -377,6 +377,9 @@ top:-110px;
 color:#ff7200;
 position:absolute;
 text-align: center;
+display: flex;
+flex-direction: column;
+
 }
 .aboutApollo p {
 font-family: 'Inter', sans-serif;
